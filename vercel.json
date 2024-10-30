@@ -1,0 +1,19 @@
+{
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    }
+  ],
+  "build": {
+    "env": {
+      "VITE_NEWS_API_KEY": "@vite_news_api_key"
+    }
+  }
+}
