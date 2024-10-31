@@ -2,6 +2,8 @@
 
 A modern news aggregation platform built with React and Tailwind CSS.
 
+![DubsNews Demo](./assets/dubsnews-demo.gif)
+
 ## Features
 
 - 📰 Real-time news updates from multiple sources

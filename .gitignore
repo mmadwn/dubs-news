@@ -8,42 +8,32 @@ coverage
 
 # Production
 dist
-dist-ssr
-*.local
+build
 
-# Environment files
+# Misc
+.DS_Store
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+.env*.local
 
 # Logs
-logs
-*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-lerna-debug.log*
 
-# Editor directories and files
+# Editor
 .vscode/*
 !.vscode/extensions.json
-!.vscode/settings.json
 .idea
-.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
 
-# TypeScript
-*.tsbuildinfo
-
-# Cache
-.cache
-.temp
-
-.vercel
+# Vite
+.vite
